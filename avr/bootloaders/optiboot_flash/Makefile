@@ -67,7 +67,7 @@ else
 	endif
 	ifeq ($(UNAME_S),Linux)
 	  # Replace ArduinoInstallPath with the actual path
-		TOOLROOT = ArduinoInstallPath/hardware/tools/avr
+		TOOLROOT = /media/liujunxiao/D/Applications/arduino-1.8.13/hardware/tools/avr
 	endif
 endif
 	

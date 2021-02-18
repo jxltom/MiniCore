@@ -1,0 +1,2 @@
+[scripts]
+upload = "avrdude -c stk500v1 -p m328p -P /dev/ttyUSB0 -b 19200 -v -U flash:w:avr/bootloaders/optiboot_flash/bootloaders/atmega328p/16000000L/optiboot_flash_atmega328p_UART0_115200_16000000L_B5.hex"
